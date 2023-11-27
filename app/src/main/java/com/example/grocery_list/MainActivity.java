@@ -1,8 +1,13 @@
+/*
+    Author: Xokthavy Vongsiharath
+    Description: defines and implements a custom adapter for displaying and managing the shopping list items in a ListView
+ */
+
+// Import necessary packages
 package com.example.grocery_list;
 
-import android.content.Intent;
+// Import Android dependencies
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
@@ -10,54 +15,56 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
+// Main activity class
 public class MainActivity extends AppCompatActivity {
-    private ListView mShoppingList;
-    private EditText mItemEdit;
-    private Button mAddButton;
-    private Button mClearButton;
-    private Button mGoToHomeButton; // New button for navigating to HomeActivity
-    private ShoppingListAdapter mAdapter;
 
-    // Request code for startActivityForResult
-    private static final int REQUEST_HOME_ACTIVITY = 1;
+    // Declare UI elements
+    ListView mShoppingList;
+    EditText mItemEdit;
+    Button mAddButton;
+    ShoppingListAdapter mAdapter; // Custom adapter for the shopping list
+    Button mClearButton;
 
+    // onCreate method called when the activity is created
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        getSupportActionBar().setTitle("Shopping List");
+        setContentView(R.layout.activity_main); // Set the content view to activity_main.xml
+        Objects.requireNonNull(getSupportActionBar()).setTitle("Shopping List"); // Set the title for the action bar
 
+        // Initialize UI elements
         mShoppingList = findViewById(R.id.shopping_listView);
         mItemEdit = findViewById(R.id.item_editText);
         mAddButton = findViewById(R.id.add_button);
-        mClearButton = findViewById(R.id.clear_button);
 
+        // Create a list of ShoppingListItem objects
         List<ShoppingListItem> shoppingItems = new ArrayList<>();
+
+        // Initialize the custom adapter with the context, layout, and shoppingItems list
         mAdapter = new ShoppingListAdapter(this, R.layout.list_item, shoppingItems);
-        mShoppingList.setAdapter(mAdapter);
+        mClearButton = findViewById(R.id.clear_button);
+        mShoppingList.setAdapter(mAdapter); // Set the adapter for the ListView
 
-        mAddButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String item = mItemEdit.getText().toString();
-                final ShoppingListItem newItem = new ShoppingListItem(item, false);
+        // Set up click listener for the "Add" button
+        mAddButton.setOnClickListener(v -> {
+            String item = mItemEdit.getText().toString();
+            final ShoppingListItem newItem = new ShoppingListItem(item, false);
 
-                mAdapter.add(newItem);
-                mAdapter.notifyDataSetChanged();
-                mItemEdit.setText("");
-            }
+            // Add the new item to the adapter and notify of the data change
+            mAdapter.add(newItem);
+            mAdapter.notifyDataSetChanged();
+            mItemEdit.setText(""); // Clear the input field
         });
 
-        mClearButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mAdapter.clear();
-                mAdapter.notifyDataSetChanged();
-                shoppingItems.clear();
-            }
+        // Set up click listener for the "Clear" button
+        mClearButton.setOnClickListener(v -> {
+            // Clear the shopping list and notify the adapter
+            mAdapter.clear(); // Clears the adapter
+            mAdapter.notifyDataSetChanged();
+            // Clear the shoppingItems list
+            shoppingItems.clear();
         });
-
-
     }
 }
