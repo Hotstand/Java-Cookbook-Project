@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.View;
 
+import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.WindowCompat;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -39,6 +40,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         setSupportActionBar(binding.toolbar);
+        //getSupportActionBar().hide();
+        //Toolbar myToolbar = (Toolbar)findViewById(R.id.toolbar1);
+        //myToolbar.setTitle("Cooking Chronicles");
+        //setSupportActionBar(myToolbar);
+        //getSupportActionBar().setTitle("Cooking Chronicles");
+
 
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
@@ -48,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
         recipeList = createDummyRecipeList(); // Replace with your actual recipe data
         RecipeAdapter recipeAdapter = new RecipeAdapter(this, R.layout.recipe_item, recipeList);
         listView.setAdapter(recipeAdapter);
+        //getSupportActionBar().setTitle("Cooking Chronicles");
 
         // Handle item clicks
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

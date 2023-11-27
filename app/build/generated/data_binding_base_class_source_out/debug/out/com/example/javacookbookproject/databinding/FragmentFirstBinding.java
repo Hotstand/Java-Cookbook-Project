@@ -5,10 +5,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Space;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.core.widget.NestedScrollView;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.javacookbookproject.R;
@@ -18,24 +20,50 @@ import java.lang.String;
 
 public final class FragmentFirstBinding implements ViewBinding {
   @NonNull
-  private final NestedScrollView rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final Button buttonFirst;
 
   @NonNull
-  public final TextView textviewFirst;
+  public final ConstraintLayout nestedScrollView;
 
-  private FragmentFirstBinding(@NonNull NestedScrollView rootView, @NonNull Button buttonFirst,
-      @NonNull TextView textviewFirst) {
+  @NonNull
+  public final EditText passField;
+
+  @NonNull
+  public final Space space7;
+
+  @NonNull
+  public final Space space8;
+
+  @NonNull
+  public final TextView textView2;
+
+  @NonNull
+  public final EditText userField;
+
+  @NonNull
+  public final TextView wrongLogin;
+
+  private FragmentFirstBinding(@NonNull ConstraintLayout rootView, @NonNull Button buttonFirst,
+      @NonNull ConstraintLayout nestedScrollView, @NonNull EditText passField,
+      @NonNull Space space7, @NonNull Space space8, @NonNull TextView textView2,
+      @NonNull EditText userField, @NonNull TextView wrongLogin) {
     this.rootView = rootView;
     this.buttonFirst = buttonFirst;
-    this.textviewFirst = textviewFirst;
+    this.nestedScrollView = nestedScrollView;
+    this.passField = passField;
+    this.space7 = space7;
+    this.space8 = space8;
+    this.textView2 = textView2;
+    this.userField = userField;
+    this.wrongLogin = wrongLogin;
   }
 
   @Override
   @NonNull
-  public NestedScrollView getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -66,13 +94,46 @@ public final class FragmentFirstBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textview_first;
-      TextView textviewFirst = ViewBindings.findChildViewById(rootView, id);
-      if (textviewFirst == null) {
+      ConstraintLayout nestedScrollView = (ConstraintLayout) rootView;
+
+      id = R.id.passField;
+      EditText passField = ViewBindings.findChildViewById(rootView, id);
+      if (passField == null) {
         break missingId;
       }
 
-      return new FragmentFirstBinding((NestedScrollView) rootView, buttonFirst, textviewFirst);
+      id = R.id.space7;
+      Space space7 = ViewBindings.findChildViewById(rootView, id);
+      if (space7 == null) {
+        break missingId;
+      }
+
+      id = R.id.space8;
+      Space space8 = ViewBindings.findChildViewById(rootView, id);
+      if (space8 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView2;
+      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
+      if (textView2 == null) {
+        break missingId;
+      }
+
+      id = R.id.userField;
+      EditText userField = ViewBindings.findChildViewById(rootView, id);
+      if (userField == null) {
+        break missingId;
+      }
+
+      id = R.id.wrongLogin;
+      TextView wrongLogin = ViewBindings.findChildViewById(rootView, id);
+      if (wrongLogin == null) {
+        break missingId;
+      }
+
+      return new FragmentFirstBinding((ConstraintLayout) rootView, buttonFirst, nestedScrollView,
+          passField, space7, space8, textView2, userField, wrongLogin);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

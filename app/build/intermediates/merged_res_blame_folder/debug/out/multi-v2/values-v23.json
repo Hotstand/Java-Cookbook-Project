@@ -1,29 +1,40 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.javacookbookproject.app-mergeDebugResources-38:/values-v23/values-v23.xml",
+            "outputFile": "com.example.javacookbookproject.app-mergeDebugResources-41:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/josh/.gradle/caches/transforms-3/7cf34d8e30118dcad52be2898a79d0fd/transformed/material-1.8.0/res/values-v23/values-v23.xml",
+                    "source": "C:\\Users\\PLDSw\\.gradle\\caches\\transforms-3\\b5364afbc06c95c72352e38d6ea75d02\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
                     "from": {
-                        "startLines": "2,5,8,13,17,20,23,26,31,34,38",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,271,481,801,1038,1245,1452,1655,1987,2189,2454",
-                        "endLines": "4,7,12,16,19,22,25,30,33,37,41",
-                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
-                        "endOffsets": "266,476,796,1033,1240,1447,1650,1982,2184,2449,2722"
-                    },
-                    "to": {
-                        "startLines": "59,62,65,70,74,77,80,83,88,91,95",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3725,3941,4151,4471,4708,4915,5122,5325,5657,5859,6124",
-                        "endLines": "61,64,69,73,76,79,82,87,90,94,98",
-                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
-                        "endOffsets": "3936,4146,4466,4703,4910,5117,5320,5652,5854,6119,6392"
+                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1225,1975,2094,2221,2443,2667,2782,2889,3002",
+                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1220,1970,2089,2216,2438,2662,2777,2884,2997,3227"
                     }
                 },
                 {
-                    "source": "/Users/josh/.gradle/caches/transforms-3/05282c1f0a97c352c32a939bc2096859/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "source": "C:\\Users\\PLDSw\\.gradle\\caches\\transforms-3\\14c8f4d9859ab4670012378cf62d3d56\\transformed\\material-1.10.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,5,9,13,16,21,25,28,31,34,39,42,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,271,413,574,784,1104,1341,1548,1755,1958,2290,2492,2757",
+                        "endLines": "4,8,12,15,20,24,27,30,33,38,41,45,49",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "266,408,569,779,1099,1336,1543,1750,1953,2285,2487,2752,3025"
+                    },
+                    "to": {
+                        "startLines": "59,62,66,70,73,78,82,85,88,91,96,99,103",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3725,3941,4083,4244,4454,4774,5011,5218,5425,5628,5960,6162,6427",
+                        "endLines": "61,65,69,72,77,81,84,87,90,95,98,102,106",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "3936,4078,4239,4449,4769,5006,5213,5420,5623,5955,6157,6422,6695"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\PLDSw\\.gradle\\caches\\transforms-3\\620f982873d66a3a41a47a9d4dd46bfa\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -42,14 +53,14 @@
                     }
                 },
                 {
-                    "source": "/Users/josh/AndroidStudioProjects/RecipeListTest/app/src/main/res/values-v23/themes.xml",
+                    "source": "C:\\Users\\PLDSw\\Documents\\GitHub\\Java-Cookbook-Project\\app\\src\\main\\res\\values-v23\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "64",
+                        "startOffsets": "66",
                         "endLines": "7",
                         "endColumns": "12",
-                        "endOffsets": "452"
+                        "endOffsets": "459"
                     },
                     "to": {
                         "startLines": "53",
@@ -58,17 +69,6 @@
                         "endLines": "58",
                         "endColumns": "12",
                         "endOffsets": "3720"
-                    }
-                },
-                {
-                    "source": "/Users/josh/.gradle/caches/transforms-3/af575453595166fed38ef613cf3573b3/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1225,1975,2094,2221,2443,2667,2782,2889,3002",
-                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
-                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
-                        "endOffsets": "185,320,395,482,1220,1970,2089,2216,2438,2662,2777,2884,2997,3227"
                     }
                 }
             ]

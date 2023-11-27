@@ -4,8 +4,11 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
@@ -21,6 +24,7 @@ public class FirstFragment extends Fragment {
             Bundle savedInstanceState
     ) {
 
+
         binding = FragmentFirstBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
@@ -32,8 +36,22 @@ public class FirstFragment extends Fragment {
         binding.buttonFirst.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavHostFragment.findNavController(FirstFragment.this)
-                        .navigate(R.id.action_FirstFragment_to_recipe_list);
+                EditText user = (EditText)getActivity().findViewById(R.id.userField);
+                EditText pass = (EditText)getActivity().findViewById(R.id.passField);
+                TextView badLogin = (TextView)getActivity().findViewById(R.id.wrongLogin);
+
+                if(user.getText().toString().equals("user") && pass.getText().toString().equals("123"))
+                {
+                    badLogin.setVisibility(View.GONE);
+                    NavHostFragment.findNavController(FirstFragment.this)
+                            .navigate(R.id.action_FirstFragment_to_recipe_list);
+                }
+                else {
+                    badLogin.setVisibility(View.VISIBLE);
+                }
+
+                //NavHostFragment.findNavController(FirstFragment.this)
+                //      .navigate(R.id.action_FirstFragment_to_SecondFragment);
             }
         });
     }

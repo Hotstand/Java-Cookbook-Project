@@ -1,10 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.javacookbookproject.app-mergeDebugResources-38:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.javacookbookproject.app-mergeDebugResources-41:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/josh/.gradle/caches/transforms-3/7cf34d8e30118dcad52be2898a79d0fd/transformed/material-1.8.0/res/values-night-v8/values-night-v8.xml",
+                    "source": "C:\\Users\\PLDSw\\Documents\\GitHub\\Java-Cookbook-Project\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "331"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "177"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\PLDSw\\.gradle\\caches\\transforms-3\\14c8f4d9859ab4670012378cf62d3d56\\transformed\\material-1.10.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,26 +40,7 @@
                     }
                 },
                 {
-                    "source": "/Users/josh/AndroidStudioProjects/RecipeListTest/app/src/main/res/values-night/themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "326"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "177"
-                    }
-                },
-                {
-                    "source": "/Users/josh/.gradle/caches/transforms-3/af575453595166fed38ef613cf3573b3/transformed/appcompat-1.6.1/res/values-night-v8/values-night-v8.xml",
+                    "source": "C:\\Users\\PLDSw\\.gradle\\caches\\transforms-3\\b5364afbc06c95c72352e38d6ea75d02\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
