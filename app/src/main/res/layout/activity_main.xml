@@ -18,8 +18,8 @@
 
         <EditText
             android:id="@+id/item_editText"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:layout_weight="1"
             android:hint="@string/item_editText_hint" />
 
@@ -35,11 +35,5 @@
             android:layout_height="wrap_content"
             android:text="Clear" />
 
-        <!-- New button for navigating to HomeActivity -->
-        <Button
-            android:id="@+id/go_to_home_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Home" />
     </LinearLayout>
 </LinearLayout>
