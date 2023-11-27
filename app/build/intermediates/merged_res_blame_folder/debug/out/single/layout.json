@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/josh/.gradle/daemon/8.0/com.example.javacookbookproject.app-mergeDebugResources-39:/layout/fragment_second.xml",
+        "source": "/Users/josh/.gradle/daemon/8.0/com.example.javacookbookproject.app-main-42:/layout/fragment_second.xml"
+    },
+    {
         "merged": "/Users/josh/.gradle/daemon/8.0/com.example.javacookbookproject.app-mergeDebugResources-39:/layout/fragment_first.xml",
         "source": "/Users/josh/.gradle/daemon/8.0/com.example.javacookbookproject.app-main-42:/layout/fragment_first.xml"
     },
@@ -8,15 +12,27 @@
         "source": "/Users/josh/.gradle/daemon/8.0/com.example.javacookbookproject.app-main-42:/layout/fragment_recipe_page.xml"
     },
     {
+        "merged": "/Users/josh/.gradle/daemon/8.0/com.example.javacookbookproject.app-mergeDebugResources-39:/layout/recipe_item.xml",
+        "source": "/Users/josh/.gradle/daemon/8.0/com.example.javacookbookproject.app-main-42:/layout/recipe_item.xml"
+    },
+    {
         "merged": "/Users/josh/.gradle/daemon/8.0/com.example.javacookbookproject.app-mergeDebugResources-39:/layout/activity_main.xml",
         "source": "/Users/josh/.gradle/daemon/8.0/com.example.javacookbookproject.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/josh/.gradle/daemon/8.0/com.example.javacookbookproject.app-mergeDebugResources-39:/layout/fragment_recipe_list.xml",
+        "source": "/Users/josh/.gradle/daemon/8.0/com.example.javacookbookproject.app-main-42:/layout/fragment_recipe_list.xml"
     },
     {
         "merged": "/Users/josh/.gradle/daemon/8.0/com.example.javacookbookproject.app-mergeDebugResources-39:/layout/content_main.xml",
         "source": "/Users/josh/.gradle/daemon/8.0/com.example.javacookbookproject.app-main-42:/layout/content_main.xml"
     },
     {
-        "merged": "com.example.javacookbookproject.app-mergeDebugResources-39:/layout/fragment_recipe_page.xml",
-        "source": "com.example.javacookbookproject.app-main-42:/layout/fragment_recipe_page.xml"
+        "merged": "/Users/josh/.gradle/daemon/8.0/com.example.javacookbookproject.app-mergeDebugResources-39:/layout/activity_recipe_detail.xml",
+        "source": "/Users/josh/.gradle/daemon/8.0/com.example.javacookbookproject.app-main-42:/layout/activity_recipe_detail.xml"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-mergeDebugResources-39:/layout/activity_main.xml",
+        "source": "com.example.javacookbookproject.app-main-42:/layout/activity_main.xml"
     }
 ]

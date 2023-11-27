@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "/Users/josh/AndroidStudioProjects/JavaCookbook/app/src/main/res/values-v23/themes.xml",
+                    "source": "/Users/josh/AndroidStudioProjects/RecipeListTest/app/src/main/res/values-v23/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

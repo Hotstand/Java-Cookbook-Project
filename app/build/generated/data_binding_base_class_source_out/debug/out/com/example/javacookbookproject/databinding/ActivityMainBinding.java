@@ -4,6 +4,7 @@ package com.example.javacookbookproject.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
@@ -20,11 +21,15 @@ public final class ActivityMainBinding implements ViewBinding {
   private final CoordinatorLayout rootView;
 
   @NonNull
+  public final ListView listView;
+
+  @NonNull
   public final MaterialToolbar toolbar;
 
-  private ActivityMainBinding(@NonNull CoordinatorLayout rootView,
+  private ActivityMainBinding(@NonNull CoordinatorLayout rootView, @NonNull ListView listView,
       @NonNull MaterialToolbar toolbar) {
     this.rootView = rootView;
+    this.listView = listView;
     this.toolbar = toolbar;
   }
 
@@ -55,13 +60,19 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.list_view;
+      ListView listView = ViewBindings.findChildViewById(rootView, id);
+      if (listView == null) {
+        break missingId;
+      }
+
       id = R.id.toolbar;
       MaterialToolbar toolbar = ViewBindings.findChildViewById(rootView, id);
       if (toolbar == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((CoordinatorLayout) rootView, toolbar);
+      return new ActivityMainBinding((CoordinatorLayout) rootView, listView, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
