@@ -72,6 +72,10 @@
         "source": "C:\\Users\\layvo\\.gradle\\daemon\\8.0\\com.example.javacookbookproject.app-main-45:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/layout_grocery.xml.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/layout/grocery.xml"
+    },
+    {
         "merged": "C:\\Users\\layvo\\.gradle\\daemon\\8.0\\com.example.javacookbookproject.app-merged_res-43:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\layvo\\.gradle\\daemon\\8.0\\com.example.javacookbookproject.app-main-45:\\drawable\\ic_launcher_foreground.xml"
     },
@@ -130,10 +134,6 @@
     {
         "merged": "C:\\Users\\layvo\\.gradle\\daemon\\8.0\\com.example.javacookbookproject.app-merged_res-43:\\drawable_rigatonijava.png.flat",
         "source": "C:\\Users\\layvo\\.gradle\\daemon\\8.0\\com.example.javacookbookproject.app-main-45:\\drawable\\rigatonijava.png"
-    },
-    {
-        "merged": "com.example.javacookbookproject.app-merged_res-43:/layout_fragment_grocery_list.xml.flat",
-        "source": "com.example.javacookbookproject.app-main-45:/layout/fragment_grocery_list.xml"
     },
     {
         "merged": "C:\\Users\\layvo\\.gradle\\daemon\\8.0\\com.example.javacookbookproject.app-merged_res-43:\\layout_fragment_first.xml.flat",

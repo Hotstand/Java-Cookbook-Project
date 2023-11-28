@@ -83,6 +83,7 @@ layout fragment_home_page
 layout fragment_recipe_list
 layout fragment_recipe_page
 layout fragment_second
+layout grocery
 layout list_item
 layout recipe_item
 layout toolbar
