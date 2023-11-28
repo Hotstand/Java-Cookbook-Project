@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/FirstFragment"
         android:name="com.example.javacookbookproject.FirstFragment"
-        android:label="@string/first_fragment_label"
+        android:label=""
         tools:layout="@layout/fragment_first">
 
         <action
@@ -31,7 +31,7 @@
     <fragment
         android:id="@+id/recipe_list"
         android:name="com.example.javacookbookproject.recipe_list"
-        android:label="recipe_list" >
+        android:label="All Recipes" >
         <action
             android:id="@+id/action_recipe_list_to_recipePageFragment"
             app:destination="@id/recipePageFragment" />
@@ -39,12 +39,12 @@
     <fragment
         android:id="@+id/recipePageFragment"
         android:name="com.example.javacookbookproject.RecipePageFragment"
-        android:label="fragment_recipe_page"
+        android:label="Recipe Page"
         tools:layout="@layout/fragment_recipe_page" />
     <fragment
         android:id="@+id/homePage"
         android:name="com.example.javacookbookproject.HomePage"
-        android:label="fragment_home_page"
+        android:label="Cooking Chronicles"
         tools:layout="@layout/fragment_home_page" >
         <action
             android:id="@+id/action_homePage_to_recipe_list"
@@ -56,5 +56,5 @@
     <fragment
         android:id="@+id/groceryList"
         android:name="com.example.javacookbookproject.GroceryList"
-        android:label="GroceryList" />
+        android:label="Grocery List" />
 </navigation>

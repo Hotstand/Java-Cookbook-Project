@@ -7,23 +7,13 @@
     tools:context=".HomePage">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/homePageTitle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#E5E0E8"
-        android:gravity="center"
-        android:text="Cooking Chronicles"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        tools:ignore="HardcodedText" />
+
 
     <TextView
         android:id="@+id/textbox2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         android:gravity="center"
         android:text="Where would you like to go?"
