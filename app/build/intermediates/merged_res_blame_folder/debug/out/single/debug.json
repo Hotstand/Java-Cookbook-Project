@@ -124,10 +124,6 @@
         "source": "C:\\Users\\layvo\\.gradle\\daemon\\8.0\\com.example.javacookbookproject.app-main-45:\\layout\\fragment_second.xml"
     },
     {
-        "merged": "C:\\Users\\layvo\\.gradle\\daemon\\8.0\\com.example.javacookbookproject.app-merged_res-43:\\layout_grocery.xml.flat",
-        "source": "C:\\Users\\layvo\\.gradle\\daemon\\8.0\\com.example.javacookbookproject.app-main-45:\\layout\\grocery.xml"
-    },
-    {
         "merged": "C:\\Users\\layvo\\.gradle\\daemon\\8.0\\com.example.javacookbookproject.app-merged_res-43:\\drawable_rigatonijava.png.flat",
         "source": "C:\\Users\\layvo\\.gradle\\daemon\\8.0\\com.example.javacookbookproject.app-main-45:\\drawable\\rigatonijava.png"
     },
