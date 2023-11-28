@@ -1,5 +1,6 @@
 package com.example.grocery_list;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -10,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class grocery_list extends AppCompatActivity {
     private ListView mShoppingList;
     private EditText mItemEdit;
     private Button mAddButton;
@@ -21,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        getSupportActionBar().setTitle("Shopping List");
+        setContentView(R.layout.grocery);
+        getSupportActionBar().setTitle("Grocery List");
 
         mShoppingList = findViewById(R.id.shopping_listView);
         mItemEdit = findViewById(R.id.item_editText);
@@ -40,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String item = mItemEdit.getText().toString();
                 final ShoppingListItem newItem = new ShoppingListItem(item, false);
-
 
                 // Notify the adapter of data change by adding the item to the adapter, not to shoppingItems
                 mAdapter.add(newItem);
@@ -62,6 +62,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        // Add the new button for navigating back to HomeActivity
+        Button backButton = findViewById(R.id.back_button);
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Create an intent to navigate back to HomeActivity
+                Intent intent = new Intent(grocery_list.this, HomeActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
