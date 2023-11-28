@@ -19,7 +19,6 @@ id action_homePage_to_recipe_list
 id action_recipe_list_to_recipePageFragment
 id action_settings
 id add_button
-id back_button
 id button_first
 id button_second
 id checkBox
