@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.grocery_list.app-mergeDebugResources-26:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "outputFile": "com.example.javacookbookproject.app-mergeDebugResources-41:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\layvo\\.gradle\\caches\\transforms-3\\f068894cb71e7cd7fe698e2b6b26c40f\\transformed\\material-1.9.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+                    "source": "C:\\Users\\layvo\\.gradle\\caches\\transforms-3\\8e999f00c4d19d5441ba0ae694901d35\\transformed\\material-1.10.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

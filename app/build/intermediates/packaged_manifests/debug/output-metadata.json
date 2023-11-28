@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.example.grocery_list",
+  "applicationId": "com.example.javacookbookproject",
   "variantName": "debug",
   "elements": [
     {
