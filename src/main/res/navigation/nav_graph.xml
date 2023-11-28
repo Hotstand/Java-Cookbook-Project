@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.javacookbookproject.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_homePage"
+            app:destination="@id/homePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.javacookbookproject.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recipe_list"
+        android:name="com.example.javacookbookproject.recipe_list"
+        android:label="recipe_list" >
+        <action
+            android:id="@+id/action_recipe_list_to_recipePageFragment"
+            app:destination="@id/recipePageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recipePageFragment"
+        android:name="com.example.javacookbookproject.RecipePageFragment"
+        android:label="fragment_recipe_page"
+        tools:layout="@layout/fragment_recipe_page" />
+    <fragment
+        android:id="@+id/homePage"
+        android:name="com.example.javacookbookproject.HomePage"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" >
+        <action
+            android:id="@+id/action_homePage_to_recipe_list"
+            app:destination="@id/recipe_list" />
+        <action
+            android:id="@+id/action_homePage_to_groceryList"
+            app:destination="@id/groceryList" />
+    </fragment>
+    <fragment
+        android:id="@+id/groceryList"
+        android:name="com.example.javacookbookproject.GroceryList"
+        android:label="GroceryList" />
+</navigation>
