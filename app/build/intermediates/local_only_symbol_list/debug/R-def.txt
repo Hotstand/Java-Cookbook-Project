@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id add_button
+id back_button
+id checkBox
+id clear_button
+id groceryListButton
+id itemName
+id item_editText
+id recipeListButton
+id shopping_listView
+id textView
+layout activity_home
+layout grocery
+layout list_item
+mipmap ic_launcher
+mipmap ic_launcher_round
+string action_settings
+string add_button_text
+string app_name
+string item_editText_hint
+style Base.Theme.Grocery_list
+style Theme.Grocery_list
+xml backup_rules
+xml data_extraction_rules
