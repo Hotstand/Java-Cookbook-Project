@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -44,13 +43,10 @@ public final class FragmentRecipeListBinding implements ViewBinding {
   @NonNull
   public final LinearLayout recipe4Hbox;
 
-  @NonNull
-  public final TextView recipesTextTitle;
-
   private FragmentRecipeListBinding(@NonNull LinearLayout rootView, @NonNull Button recipe1,
       @NonNull LinearLayout recipe1Hbox, @NonNull Button recipe2, @NonNull LinearLayout recipe2Hbox,
       @NonNull Button recipe3, @NonNull LinearLayout recipe3Hbox, @NonNull Button recipe4,
-      @NonNull LinearLayout recipe4Hbox, @NonNull TextView recipesTextTitle) {
+      @NonNull LinearLayout recipe4Hbox) {
     this.rootView = rootView;
     this.recipe1 = recipe1;
     this.recipe1Hbox = recipe1Hbox;
@@ -60,7 +56,6 @@ public final class FragmentRecipeListBinding implements ViewBinding {
     this.recipe3Hbox = recipe3Hbox;
     this.recipe4 = recipe4;
     this.recipe4Hbox = recipe4Hbox;
-    this.recipesTextTitle = recipesTextTitle;
   }
 
   @Override
@@ -138,14 +133,8 @@ public final class FragmentRecipeListBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.recipesTextTitle;
-      TextView recipesTextTitle = ViewBindings.findChildViewById(rootView, id);
-      if (recipesTextTitle == null) {
-        break missingId;
-      }
-
       return new FragmentRecipeListBinding((LinearLayout) rootView, recipe1, recipe1Hbox, recipe2,
-          recipe2Hbox, recipe3, recipe3Hbox, recipe4, recipe4Hbox, recipesTextTitle);
+          recipe2Hbox, recipe3, recipe3Hbox, recipe4, recipe4Hbox);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

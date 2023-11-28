@@ -34,7 +34,6 @@ id favoriteButton
 id groceryList
 id groceryListButton
 id homePage
-id homePageTitle
 id ingredients
 id ingredientsHbox
 id ingredientsLabel
@@ -62,7 +61,6 @@ id recipe_detail_name
 id recipe_image_view
 id recipe_list
 id recipe_name_text_view
-id recipesTextTitle
 id shopping_listView
 id space7
 id space8
