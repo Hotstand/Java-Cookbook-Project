@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- res/layout/activity_recipe_detail.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="16dp">
+
+<!-- Customize this layout to display the details of the selected recipe -->
+<TextView
+    android:id="@+id/recipe_detail_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Recipe Detail Placeholder"
+    android:textSize="18sp"
+    android:textStyle="bold" />
+
+<!-- Add other views to display recipe details -->
+</RelativeLayout>

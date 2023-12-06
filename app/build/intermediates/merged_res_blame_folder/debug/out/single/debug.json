@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/layout_activity_recipe_detail.xml.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/layout/activity_recipe_detail.xml"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/layout_fragment_recipe_page.xml.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/layout/fragment_recipe_page.xml"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/layout_fragment_first.xml.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/layout/fragment_first.xml"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/layout_activity_main.xml.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/navigation_nav_graph.xml.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/menu_menu_main.xml.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/drawable_chocolatechippancakesjava.png.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/drawable/chocolatechippancakesjava.png"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/layout_fragment_home_page.xml.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/layout/fragment_home_page.xml"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/drawable_rigatonijava.png.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/drawable/rigatonijava.png"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/layout_fragment_recipe_list.xml.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/layout/fragment_recipe_list.xml"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/xml_backup_rules.xml.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/drawable_browniesjava.png.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/drawable/browniesjava.png"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/drawable_chocolatemoussejava.png.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/drawable/chocolatemoussejava.png"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/layout_recipe_item.xml.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/layout/recipe_item.xml"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/layout_content_main.xml.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/layout_list_item.xml.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/layout/list_item.xml"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/layout_fragment_grocery_list.xml.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/layout/fragment_grocery_list.xml"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/layout_toolbar.xml.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/layout/toolbar.xml"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/layout_fragment_second.xml.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/layout/fragment_second.xml"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.javacookbookproject.app-merged_res-43:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.javacookbookproject.app-main-45:/xml/data_extraction_rules.xml"
+    }
+]
