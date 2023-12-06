@@ -1,5 +1,6 @@
 package com.example.javacookbookproject;
 
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 
 import com.google.android.material.snackbar.Snackbar;
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
     private List<Recipe> recipeList; // Declare recipeList here
+    private DBHandler dbhandler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +42,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         setSupportActionBar(binding.toolbar);
+
+
+        SQLiteDatabase db = new DBHandler(getApplicationContext()).getWritableDatabase();
+
         //getSupportActionBar().hide();
         //Toolbar myToolbar = (Toolbar)findViewById(R.id.toolbar1);
         //myToolbar.setTitle("Cooking Chronicles");
