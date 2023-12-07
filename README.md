@@ -8,3 +8,7 @@ After installation select Get from VCS and input the clone URL from this reposit
 Attempt to run the application
 If required, install android emulator driver as prompted.
 Follow other prompts as they appear in order to run application.
+
+Current user authentication details are as follows:
+Username: user
+Password: 123
